@@ -1,0 +1,30 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "A new service related to vezeeta and made for the new blog, blog users and users permissions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bolg",
+    "blogapi"
+  ],
+  "author": "ahmed medhat",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/nodejs-repo-tools": "^3.3.0",
+    "@hapi/joi": "^17.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
