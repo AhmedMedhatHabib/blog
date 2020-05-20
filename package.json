@@ -1,7 +1,7 @@
 {
   "name": "blogapi",
   "version": "1.0.0",
-  "description": "A new service related to vezeeta and made for the new blog, blog users and users permissions",
+  "description": "A new service to manage blog users and users permissions",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
